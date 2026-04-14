@@ -1,0 +1,35 @@
+body{
+    background-image: url("./img/skrin.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box_pamats{
+    padding: 50px 0; 
+
+    }
+.box_pamats_prop{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1px 0;
+    background: #707070;
+    border-radius: 16px; 
+    background: rgba(112,112,112,0.5);
+    }
+
+.box1 {
+    padding: 5px 0; 
+    }
+
+    
+.box1_prop {
+    width: 80%;
+    margin: 7px auto;
+    padding: 80% 0;
+    background: #424242;
+    border-radius: 16px;
+
+    }
+
