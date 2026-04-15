@@ -1,0 +1,170 @@
+1.0 – Adventure Update
+
+Apraksts: Spēles oficiālā versija, pievienota beigas (fināls) un zāļu pagatavošana.
+Bloki: Burvju galds, vārīšanas stends, pazemes ķieģeļi, pūķa ola.
+Mobi: Malas pūķis, iedzīvotājs, sēņu govs, sniegavīrs, zvīņainis, magmakubs.
+Struktūras: Cietoksnis ar portālu uz malu, elles cietoksnis, ciems.
+
+1.2 - Jungle Update
+
+Apraksts: Pievienotas biezas džungļi un jauni palīgi.
+Bloki: Džungļu koksne un no tās veidoti bloki, akmens ķieģeļi un to paveidi, sarkana akmens lampa.
+Mobi: Ocelots, kaķis, dzelzs golems.
+Struktūras: Tuksneša akas.
+
+1.3 - Trade Update
+
+Apraksts: Tirdzniecības mehānikas pievienošana.
+Bloki: Smaragda rūda, smaragdi, Ender lāde, spriegojamais sensors.
+Mobi: Nav.
+Struktūras: Tuksneša templis, džungļu templis.
+
+1.4 - Pretty Scary Update
+
+Apraksts: Halovīnu atjauninājums ar raganām un jaunu bosu.
+Bloki: Bāka, kalve, komandu bloks, puķu pods, rāmis, glezna.
+Mobi: Izžūdinātājs, skelets-izžūdinātājs, ragana, sikspārnis.
+Struktūras: Raganas būda.
+
+1.5 - Redstone Update
+
+Apraksts: Mehānismu pievienošana un sarkanā akmens attīstība.
+Bloki: Piltuve, kompilators, izmetējs, gaismas sensors, sarkanā akmens bloks, kvarcs un no tā veidoti bloki, lāde-loks.
+Mobi: Nav.
+Struktūras: Nav.
+
+1.6 - Horse Update
+
+Apraksts: Jājamdzīvnieku un to atribūtu parādīšanās.
+Bloki: Sienas kūlis, ogļu bloks, māls un no tā veidoti bloki, paklājs, birka.
+Mobi: Zirgs, ēzelis, mūlis, zirga skelets, zirga zombijs.
+Struktūras: Nav.
+
+1.7 - The Update that Changed the World
+
+Apraksts: Vērienīgas izmaiņas pasaules ģenerēšanā un daudzu biomu pievienošana.
+Bloki: Dažādu krāsu stikli, akācijas un koka bloki, tumšais ozols un koka bloki, jauni ziedi, biezais ledus.
+Mobi: Nav.
+Struktūras: Jauni biomi (Meza, Ledus virsotnes, Tumšais mežs utt.)
+
+1.8 - Bountiful Update
+
+Apraksts: Vērienīgs zemūdens pasaules, fermu un mehānismu atjauninājums.
+Bloki: Prismarīns un no tā veidoti bloki, jūras laterna, diorīts, andezīts, granīts, gļotu bloks, barjera.
+Mobi: Sargs, senais sargs, trusis, endermīts.
+Struktūras: Zemūdens cietoksnis.
+
+1.9 - Combat Update
+
+Apraksts: Kaujas sistēmas pārstrādāšana un Kraja pasaules paplašināšana.
+Bloki: Horusa augi, purpura bloks, Kraja stienis.
+Mobi: Šalkers.
+Struktūras: Kraja pilsētas, Iglu.
+
+1.10 - Frostburn Update
+
+Apraksts: Karsto un aukstu biomu atjauninājums.
+Bloki: Magmas bloks, kaulu bloks, sarkana elles ķieģeļa, elles izauguma bloks.
+Mobi: Baltā lācis, kadavrs, ziemas kalns.
+Struktūras: Atliekas (skeleti zem zemes).
+
+1.11 - Exploration Update
+
+Apraksts: Pasaules izpēte un kartogrāfija.
+Bloki: Šalkera kaste, novērotājs.
+Mobi: Lama, burvis, izspiedējs, kaitnieks.
+Struktūras: Meža savrupmāja.
+
+1.12 - World of Color Update
+
+Apraksts: Krāsu atjauninājums celtniekiem.
+Bloki: Dažādu krāsu betons, glazētā keramika.
+Mobi: Papagailis.
+Struktūras: Nav.
+
+1.13 - Aquatic Update
+
+Apraksts: Okeānu pārstrādāšana un jūras dzīvības un ūdens fizikas pievienošana.
+Bloki: Koraļļi, laminārija, jūras gurķis, zils ledus, bruņurupuča ola.
+Mobi: Delfīns, jūras bruņurupucis, fantoms, noslīcis, menca, lasis, adatu zivs, tropu zivs.
+Struktūras: Nogrimis kuģis, okeāna drupas, aisbergi.
+
+1.14 - Village & Pillage Update
+
+Apraksts: Iedzīvotāju un to profesiju atjauninājums, iedzīvotāju AI pārstrādāšana un reidu sistēmas izveide.
+Bloki: Ugunskurs, bambuss, būvniecības sastatnes, asināmais akmens, aušanas stends, muca, kūpinātava, kausēšanas krāsns, kalēja galds.
+Mobi: Laupītājs, postītājs, panda lapsa, ceļojošais tirgotājs.
+Struktūras: Laupītāju priekšpostenis.
+
+1.15 - Buzzy Bees Update
+
+Apraksts: Plaša kļūdu labojumu un bišu atjauninājums.
+Bloki: Stropi, bišu ligzda, medus bloks, bišu šūnu bloks.
+Mobi: Bite.
+Struktūras: Nav.
+
+1.16 - Nether Update
+
+Apraksts: Nether pārstrādāšana.
+Bloki: Netherīts, senie atlūzas, purpura/deformēta koksne un bloki no tās, dvēseļu augsne, sēņu gaisma, raudošais obsidiāns.
+Mobi: Piglin, nežēlīgais piglin, hoglin, zoglin, lavamērītājs, dvēseļu augsne.
+Struktūras: Piglinu bastions, iznīcinātie portāli un jauni elles biomi.
+
+1.17 - Caves & Cliffs: Part I Update
+
+Apraksts: Pirmā daļa no alu un klintīm atjauninājuma, pārstrādāta pasaules nejaušā ģenerēšana.
+Bloki: Varš, ametists, dziļais slāneklis, tufa, kalcīts, pūkains sniegs, sūnas, stalaktīts/stalagmīts.
+Mobi: Aksolotls, spīdošais sēpija, āzis.
+Struktūras: Jauni alu biomi, ametista geoda.
+
+1.18 - Caves & Cliffs: Part II Update
+
+Apraksts: Otrā atjauninājuma daļa, palielināts pasaules augstums un izmaiņas ģenerēšanā.
+Bloki: Nav.
+Mobi: Nav.
+Struktūras: Jauni alu biomi.
+
+1.19 - The Wild Update
+
+Apraksts: Mangrovju mežu un drūmā pazemes biomu pievienošana.
+Bloki: Skalku bloki (sensors, katalizators, kliedzējs), dubļi, mangrovju koks, žabgaismas.
+Mobi: Sargātājs (Varden), Klusais (Elle), varde, krupis.
+Struktūras: Senā pilsēta.
+
+1.20 - Trails & Tales Update
+
+Apraksts: Arheoloģija, bruņu pielāgošana.
+Bloki: Ķiršu koks, bambusa koks, aizdomīgs smilts/grants, vāzes.
+Mobi: Kamielis, ožotājs, bruņurupucis.
+Struktūras: Arheoloģijas drupas.
+
+
+1.21 – Tricky Trials Update
+
+Apraksts: Procedurāli ģenerēti pazemes ar kaujas pārbaudījumiem un vara mehānismiem.
+Bloki: Vara lampa, vara režģis, vara durvis/lūkas, automātiskais darbgalds, jauni spawneri.
+Mobi: Brīze, purvājs.
+Struktūras: Pārbaudījumu kameras.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

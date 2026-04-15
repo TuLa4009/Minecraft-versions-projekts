@@ -1,0 +1,178 @@
+1.0 - Adventure Update
+
+Description: Official game release, addition of the ending and potion brewing.
+Blocks: Enchanting table, brewing stand, Nether bricks, dragon egg.
+Mobs: Edge Dragon, Villager, Mushroom Cow, Snowman, Scaly, Magmacube.
+Structures: Fortress with a portal to the Edge, Hell Fortress, Village.
+
+1.2 - Jungle Update
+
+Description: Adds dense jungles and new helpers.
+Blocks: Jungle wood and blocks made from it, stone bricks and variants, redstone lamp.
+Mobs: Ocelot, cat, iron golem.
+Structures: Desert well.
+
+1.3 - Trade Update
+
+Description: Adds trading mechanics.
+Blocks: Emerald ore, emeralds, Ender chest, tension sensor.
+Mobs: None.
+Structures: Desert temple, jungle temple.
+
+1.4 - Pretty Scary Update
+
+Description: Halloween update featuring witches and a new boss.
+Blocks: Lighthouse, Anvil, Command Block, Flower Pot, Frame, Painting.
+Mobs: Wither, Wither Skeleton, Witch, Bat.
+Structures: Witch’s Hut.
+
+1.5 - Redstone Update
+
+Description: Addition of mechanisms and redstone development.
+Blocks: Hopper, comparator, dispenser, light sensor, redstone block, quartz and blocks made from it, trap chest.
+Mobs: None.
+Structures: None.
+
+1.6 - Horse Update
+
+Description: Introduction of mounts and their equipment.
+Blocks: Hay bale, coal block, clay and clay blocks, carpet, tag.
+Mobs: Horse, donkey, mule, horse skeleton, zombie horse.
+Structures: None.
+
+1.7 - The Update that Changed the World
+
+Description: Major changes to world generation and the addition of numerous biomes.
+Blocks: Colored glass, acacia and acacia wood blocks, dark oak and dark oak wood blocks, new flowers, solid ice.
+Mobs: None.
+Structures: New biomes (Mesa, Ice Peaks, Dark Forest, etc.)
+
+1.8 - Bountiful Update
+
+Description: A major update to the underwater world, farms, and mechanisms.
+Blocks: Prismarine and prismarine blocks, sea lantern, diorite, andesite, granite, slime block, barrier.
+Mobs: Guardian, Ancient Guardian, Rabbit, Enderman.
+Structures: Underwater Fortress.
+
+1.9 - Combat Update
+
+Description: Combat system overhaul and expansion of the Edge world.
+Blocks: Horus plants, purple block, Edge rod.
+Mobs: Shalker.
+Structures: Edge cities, Igloo.
+
+1.10 - Frostburn Update
+
+Description: Update to hot and cold biomes.
+Blocks: Magma Block, Bone Block, Red Hell Brick, Hell Growth Block.
+Mobs: Polar Bear, Cadaver, Wintergolem.
+Structures: Remains (underground skeletons).
+
+1.11 - Exploration Update
+
+Description: World exploration and cartography.
+Blocks: Shulker Box, Observer.
+Mobs: Llama, Enchanter, Harvester, Harasser.
+Structures: Forest Mansion.
+
+1.12 - World of Color Update
+
+Description: A color update for builders.
+Blocks: Colored concrete, glazed ceramics.
+Mobs: Parrot.
+Structures: None.
+
+1.13 - Aquatic Update
+
+Description: A revamp of the oceans and the addition of marine life and water physics.
+Blocks: Corals, kelp, sea cucumber, blue ice, turtle egg.
+Mobs: Dolphin, sea turtle, phantom, drowned, cod, salmon, pufferfish, tropical fish.
+Structures: Shipwreck, ocean ruins, icebergs.
+
+1.14 - Village & Pillage Update
+
+Description: Update to villagers and their professions, rework of villager AI, and creation of a raid system.
+Blocks: Campfire, bamboo, scaffolding, whetstone, loom, barrel, smokehouse, smelter, anvil.
+Mobs: Bandit, Ravager, Fox Panda, Wandering Merchant.
+Structures: Bandit Outpost.
+
+1.15 - Buzzy Bees Update
+
+Description: Major bug fixes and bees.
+Blocks: Beehive, Bee Nest, Honey Block, Honeycomb Block.
+Mobs: Bee.
+Structures: None.
+
+1.16 - Nether Update
+
+Description: Nether overhaul.
+Blocks: Netherite, ancient debris, crimson/warped wood and blocks made from it, soul soil, mushroom light, weeping obsidian.
+Mobs: Piglin, Fierce Piglin, Hoglin, Zoglin, Lavamancer, Soul Soil.
+Structures: Piglin Bastion, Ruined Portals, and new Hell biomes.
+
+1.17 - Caves & Cliffs: Part I Update
+
+Description: The first part of the Caves & Cliffs update, a rework of random world generation.
+Blocks: Copper, Amethyst, Deep Shale, Tuff, Calcite, Loose Snow, Moss, Stalactite/Stalagmite.
+Mobs: Axolotl, Glowing Octopus, Goat.
+Structures: New cave biomes, amethyst geode.
+
+1.18 - Caves & Cliffs: Part II Update
+
+Description: The second part of the update, increased world height and changes to generation.
+Blocks: None.
+Mobs: None.
+Structures: New cave biomes.
+
+1.19 - The Wild Update
+
+Description: Addition of mangrove forests and a gloomy underground biome.
+Blocks: Scalk blocks (sensor, catalyst, screamer), mud, mangrove tree, toadlight.
+Mobs: Guardian (Warden), Quiet One (Elley), frog, tadpole.
+Structures: Ancient City.
+
+1.20 - Trails & Tales Update
+
+Description: Archaeology, armor customization.
+Blocks: Cherry tree, bamboo tree, suspicious sand/gravel, vases.
+Mobs: Camel, Sniffer, Armadillo.
+Structures: Ruins for archaeology.
+
+
+1.21 - Tricky Trials Update
+
+Description: Procedurally generated dungeons featuring combat trials and copper mechanisms.
+Blocks: Copper lamp, copper grate, copper doors/hatches, auto-workbench, new spawners.
+Mobs: Breeze, Swampman.
+Structures: Trial chambers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Translated with DeepL.com (free version)
