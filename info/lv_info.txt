@@ -2,8 +2,8 @@
 
 Apraksts: Spēles oficiālā versija, pievienota beigas (fināls) un zāļu pagatavošana.
 Bloki: Burvju galds, vārīšanas stends, pazemes ķieģeļi, pūķa ola.
-Mobi: Malas pūķis, iedzīvotājs, sēņu govs, sniegavīrs, zvīņainis, magmakubs.
-Struktūras: Cietoksnis ar portālu uz malu, elles cietoksnis, ciems.
+Mobi: Endera pūķis, iedzīvotājs, sēņu govs, sniegavīrs, zvīņainis, magmakubs.
+Struktūras: Cietoksnis ar portālu uz Endera pasauli, elles cietoksnis, ciems.
 
 1.2 - Jungle Update
 
@@ -107,7 +107,7 @@ Struktūras: Nav.
 
 Apraksts: Nether pārstrādāšana.
 Bloki: Netherīts, senie atlūzas, purpura/deformēta koksne un bloki no tās, dvēseļu augsne, sēņu gaisma, raudošais obsidiāns.
-Mobi: Piglin, nežēlīgais piglin, hoglin, zoglin, lavamērītājs, dvēseļu augsne.
+Mobi: Piglins, nežēlīgais piglins, hoglins, zoglins, lavamērītājs, dvēseļu augsne.
 Struktūras: Piglinu bastions, iznīcinātie portāli un jauni elles biomi.
 
 1.17 - Caves & Cliffs: Part I Update
