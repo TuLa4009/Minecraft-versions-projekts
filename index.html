@@ -21,13 +21,9 @@
         <div class ="box1_prop">
         <div class="part_top">
             <div class ="text_box">
-            <h1>Labdien!</h1>
+            <h1 data-i18n="intro.greeting"></h1>
             <hr class="hr1">
-            <p class="text_main"> Tas ir programēšanas projekts kuras mērķis ir pastastīt spēlētājiem par visiem Minecraft vērsijam sākot no 1.0, tas var palīdzēt atcerēties ko kompānija Mojang pievienoja spēlei kopš 2011.gada.
-                
-                Pēc informācijas izlasīšanas, Jūs varat izpildīt testu un uzzināt cik labi pārzinat Minecraft pasauli.
-                
-                Ceram ka būs interesanti!</p>
+            <p class="text_main" data-i18n="intro.text"></p>
         
             </div>
             <div class="fast_open">
@@ -65,14 +61,15 @@
         <div class="topchik">
             <button class="home_poga"><i class="bi bi-house"></i></button>
             <div class="valodas">
-                <button class="lang lv">LV</button>
-                <button class="lang en">EN</button>
-                <button class="lang ru">RU</button>
+                <button class="lang lv" onclick="setLanguage('lv')">LV</button>
+                <button class="lang en" onclick="setLanguage('en')">EN</button>
+                <button class="lang ru" onclick="setLanguage('ru')">RU</button>
             </div>
         </div>
     </div>
 
 
     <script src="index.js"></script>
+    <script src="translation.js"></script>
 </body>
 </html>
