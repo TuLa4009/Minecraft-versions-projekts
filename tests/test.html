@@ -10,23 +10,6 @@
 
 </head>
 <body onload="startTime()">
-<script>
-    function startTime() {
-  const today = new Date();
-  let h = today.getHours();
-  let m = today.getMinutes();
-  let s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementsByClassName("laiks")[0].innerHTML =  h + ":" + m + ":" + s;
-  setTimeout(startTime, 1000);
-}
-
-function checkTime(i) {
-  if (i < 10) {i = "0" + i}; 
-  return i;
-}
-</script>
     <div class ="box_pamats"> 
     <div class ="box_pamats_prop">
         <img class="logotips" src="../img/caves_logo.png">
@@ -68,6 +51,8 @@ function checkTime(i) {
             </div>
         </div>
 </div>
- <script src="test.js"></script>
+<script src="../index.js"></script>
+<script src="test.js"></script>
+<script src="../translationtest.js"></script>
 </body>
 </html>
