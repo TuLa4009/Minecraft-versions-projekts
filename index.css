@@ -538,3 +538,31 @@ img{
     background: #f6a0d3;
     color: white;
 }
+
+.test_poga{
+    background: rgba(78, 78, 78, 0.1);
+    color: #f6a0d3;
+    border-radius: 8px;
+    padding: 20px 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.2s; 
+    border: 0px;
+    cursor: pointer;
+    margin-left: auto;
+    display: flex;
+    font-size: 18px;
+    font-family: "Unifont", monospace;
+    font-weight: bold;
+
+}
+.test_poga:hover{
+    background: #f6a0d3;
+    color: white;
+}
+.head_rinda{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
