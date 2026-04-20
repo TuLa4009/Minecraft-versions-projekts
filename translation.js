@@ -68,7 +68,7 @@ const translations = {
     v1_8: {
         title: "1.8 - Bountiful Update",
         text: `
-        Apraksts: Vērienīgs zemūdens pasaules, fermu un mehānismu atjauninājums.\n
+        Apraksts: Vērienīgs zemūdens pasaules, fermu un mehānismu atjauninājums.
         Bloki: Prismarīns un no tā veidoti bloki, jūras laterna, diorīts, andezīts, granīts, gļotu bloks, barjera.
         Mobi: Sargs, senais sargs, trusis, endermīts.
         Struktūras: Zemūdens cietoksnis.`
