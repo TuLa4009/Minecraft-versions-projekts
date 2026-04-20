@@ -95,6 +95,7 @@ h1{
     margin-bottom: 0%;
 }
 
+
 h2{
     font-size: 32px;
     color: white;
@@ -159,8 +160,19 @@ h2{
     flex: 0 0 auto; 
     padding: 15px;
     min-width: 30px;
+    transition: 0.3s;
+
+
     
+
 }
+.fast_open_box:hover {
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+    
+    
+
 
 
 
