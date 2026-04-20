@@ -45,8 +45,8 @@ const translations_dop = {
             
             title2: "Jauni Nether biomi",
 
-            list1:"Crimson Forest (sarkanais mežs)",
-            list2:"Warped Forest (izkropļotais mežs)",
+            list:"Crimson Forest (sarkanais mežs)",
+            list1:"Warped Forest (izkropļotais mežs)",
             list2:"Soul Sand Valley",
             list3:"Basalt Deltas",
 
@@ -135,8 +135,8 @@ const translations_dop = {
             
             title2: "New Nether biomes",
 
-            list1:"Crimson Forest",
-            list2:"Warped Forest",
+            list:"Crimson Forest",
+            list1:"Warped Forest",
             list2:"Soul Sand Valley",
             list3:"Basalt Deltas",
 
@@ -230,8 +230,8 @@ const translations_dop = {
             
             title2: "Новых биомов в Нижнем мире",
 
-            list1:"Багровый лес (Crimson Forest)",
-            list2:"Искажённый лес (Warped Forest)",
+            list:"Багровый лес (Crimson Forest)",
+            list1:"Искажённый лес (Warped Forest)",
             list2:"Долина песка душ (Soul Sand Valley)",
             list3:"Базальтовые дельты (Basalt Deltas)",
 
