@@ -18,6 +18,65 @@ body{
     
     
 }
+.part_top{
+    font-family: "Unifont", monospace;
+    color: white;
+    margin: 20px;
+
+
+    
+}
+.text{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    
+}
+h1{
+
+    font-size: 55px;
+    color: white;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+}
+
+h2{
+    font-size: 32px;
+    color: white;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+.hr1{
+    
+   border: 2px solid #D1620D;
+    width: 80%;
+    margin-left: 1%;
+}
+
+.hr2{
+    border: 2px solid #D1620D;
+    width: 40%;
+    margin-left: 1%;
+    
+}
+
+.list_text{
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    
+}
 
 .box_pamats{
     width: 80%;
@@ -37,7 +96,7 @@ body{
     flex-direction: column;
     gap: 10px;
     
-    }
+}
 
 .box1{
     flex: 1;
