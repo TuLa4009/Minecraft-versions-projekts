@@ -1,11 +1,21 @@
-/// Tulkošanas funkcija
 function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const path = el.getAttribute("data-i18n");
+    const keys = path.split(".");
 
-    const value = path.split(".").reduce((obj, key) => obj[key], translations[lang]);
+    let value;
 
-    el.textContent = value;
+
+    value = keys.reduce((obj, key) => obj?.[key], translations?.[lang]);
+
+
+    if (!value) {
+      value = keys.reduce((obj, key) => obj?.[key], translations_dop?.[lang]);
+    }
+
+    if (value) {
+      el.textContent = value;
+    }
   });
 
   localStorage.setItem("lang", lang);
@@ -191,6 +201,9 @@ const versijasAP = {
   });
 });
 
+
+
+
 let currentVersion = null;
 
 
@@ -210,6 +223,10 @@ document.querySelector(".right_side_box").addEventListener("click", () => {
   window.location.href = `versions/${currentVersion}.html`;
 });
 
+
+
+
+///time
 function startTime() {
   const today = new Date();
   let h = today.getHours();
@@ -224,4 +241,10 @@ function startTime() {
 function checkTime(i) {
   if (i < 10) {i = "0" + i}; 
   return i;
+}
+
+
+/// home button
+function mainPage() {
+  window.location.href = "../index.html";
 }
