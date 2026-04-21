@@ -3,7 +3,7 @@
 @import url("https://unpkg.com/@fontsource/unifont/index.css");
 
 body{
-    background-image: url("../img/cherry_logo.png");
+    background-image: url("./img/cherry_logo.png");
     margin: 0;
     background-repeat: no-repeat;
     background-position: center;
