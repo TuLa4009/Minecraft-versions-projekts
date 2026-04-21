@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playwrite+HR+Lijeva&family=Playwrite+PT+Guides&family=Shafarik&family=Sigmar&family=VT323&display=swap');
 @import url("https://unpkg.com/@fontsource/unifont/index.css");
@@ -539,26 +540,7 @@ img{
     color: white;
 }
 
-.test_poga{
-    background: rgba(78, 78, 78, 0.1);
-    color: #f6a0d3;
-    border-radius: 8px;
-    padding: 20px 20px;
-    backdrop-filter: blur(10px);
-    transition: 0.2s; 
-    border: 0px;
-    cursor: pointer;
-    margin-left: auto;
-    display: flex;
-    font-size: 18px;
-    font-family: "Unifont", monospace;
-    font-weight: bold;
 
-}
-.test_poga:hover{
-    background: #f6a0d3;
-    color: white;
-}
 .head_rinda{
     display: flex;
     width: 100%;
@@ -567,11 +549,106 @@ img{
     width: 100%;
 }
 
-.gif{
+.gif {
     position: fixed;
-    top: 25%;
-    margin: auto;
-    left: 58%;
-    width: 800px;
-    height: 450px;
+    top: 50%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+
+    width: 80vw;
+    max-width: 800px;
+    height: auto;
+}
+
+.search {
+    width: 200px;
+    height: 38px;
+    padding: 0 12px;
+
+    background: #424242;
+    border: 2px solid #f6a0d3;
+    border-radius: 10px;
+
+    color: white;
+    font-family: "Unifont", monospace;
+    font-size: 14px;
+
+    outline: none;
+
+    box-shadow: 
+        inset -3px -3px 0 #1a1a1a,
+        inset 3px 3px 0 #6b6b6b;
+
+    transition: 0.2s;
+}
+
+
+.search::placeholder {
+    color: #f6a0d3;
+    opacity: 0.7;
+}
+
+
+.search:focus {
+    background: #4a4a4a;
+    border-color: #ffb6e6;
+}
+
+
+.valodas {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.test_poga{
+    background: rgba(78, 78, 78, 0.1);
+    color: #f6a0d3;
+    border-radius:15px;
+    padding: 20px 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.2s; 
+    border: 0px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    font-size: 18px;
+    font-family: "Unifont", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 
+        inset -2px -2px 0 #1a1a1a,
+        inset 2px 2px 0 #cacaca;
+
+}
+.test_poga:hover{
+    background: #f6a0d3;
+    color: white;
+
+}
+.spele_poga{
+    background: rgba(78, 78, 78, 0.1);
+    color: #f6a0d3;
+    border-radius:15px;
+    padding: 20px 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.2s; 
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-family: "Unifont", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 
+        inset -2px -2px 0 #1a1a1a,
+        inset 2px 2px 0 #cacaca;
+
+}
+.spele_poga:hover{
+    background: #f6a0d3;
+    color: white;
+
 }

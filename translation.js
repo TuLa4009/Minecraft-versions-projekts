@@ -1,3 +1,4 @@
+
 const translations = {
   lv: {
     intro: {
@@ -578,3 +579,4 @@ const translations = {
     }
 }
 };
+

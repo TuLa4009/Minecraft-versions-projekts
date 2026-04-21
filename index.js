@@ -1,32 +1,32 @@
 function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const path = el.getAttribute("data-i18n");
+    if (!path) return;
+
     const keys = path.split(".");
 
-    let value;
+    let value = keys.reduce((obj, key) => obj?.[key], translations?.[lang]);
 
-
-    value = keys.reduce((obj, key) => obj?.[key], translations?.[lang]);
-
-
-    if (!value) {
+    if (value === undefined) {
       value = keys.reduce((obj, key) => obj?.[key], translations_dop?.[lang]);
     }
 
-    if (value) {
+    if (value !== undefined) {
       el.textContent = value;
     }
   });
 
   localStorage.setItem("lang", lang);
+
+  if (typeof IeladetJaut === "function") {
+    IeladetJaut();
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("lang") || "lv";
   setLanguage(savedLang);
 });
-
-
 
 
 
@@ -248,3 +248,134 @@ function checkTime(i) {
 function mainPage() {
   window.location.href = "../index.html";
 }
+
+//test button
+function testPage() {
+  window.location.href = "tests/test.html";
+}
+
+//game button
+
+function spelePage() {
+  window.location.href = "../game/index.html";
+}
+
+
+
+
+
+
+
+//gif atkartošana
+function nonGif() {
+  let waitTime = 0;
+  const timeLimit = 10;
+  const repeatDelay = 20;
+  const gifDuration = 4900;
+
+  let isPlaying = false;
+  let lastPlayTime = 0;
+
+  const gif = document.querySelector(".gif");
+
+  if (gif) gif.style.display = "none";
+
+  function resetTimer() {
+    waitTime = 0;
+    lastPlayTime = 0;
+
+    if (!isPlaying && gif) {
+      gif.style.display = "none";
+    }
+  }
+
+  function playGif() {
+    if (!gif) return;
+
+    gif.style.display = "block";
+
+
+    const src = gif.src;
+    gif.src = "";
+    gif.src = src;
+
+    isPlaying = true;
+    lastPlayTime = 0;
+
+    setTimeout(() => {
+      isPlaying = false;
+      gif.style.display = "none";
+    }, gifDuration);
+  }
+
+  function checkIdle() {
+    waitTime++;
+
+
+    if (waitTime === timeLimit && !isPlaying) {
+      playGif();
+    }
+
+
+    if (waitTime > timeLimit && !isPlaying) {
+      lastPlayTime++;
+
+      if (lastPlayTime >= repeatDelay) {
+        playGif();
+      }
+    }
+  }
+
+  document.addEventListener("mousemove", resetTimer);
+  document.addEventListener("keydown", resetTimer);
+  document.addEventListener("click", resetTimer);
+  document.addEventListener("scroll", resetTimer);
+
+  setInterval(checkIdle, 1000);
+}
+
+window.addEventListener("load", nonGif);
+
+function gamePage() {
+  window.location.href = "tests/test.html";
+}
+
+// mekletais
+let selectedVersion = null;
+
+
+function normalizeVersion(input) {
+    return input
+        .toLowerCase()
+        .trim()
+        .replace(/^version\s*/i, "")
+        .replace(/^ver\s*/i, "")
+        .replace(/^v\s*/i, "")
+        .replace(/[.\-\s]+/g, "_")
+        .replace(/^/, "v");
+}
+
+
+function searchVersion() {
+    const input = document.getElementById("searchInput").value;
+    const formatted = normalizeVersion(input);
+
+    if (!/^v\d+_\d+$/.test(formatted)) {
+        alert("Ivadit versiju: 1.0, 1-0, v1_0");
+        return;
+    }
+
+    selectedVersion = formatted;
+
+    window.location.href = `versions/${selectedVersion}.html`;
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("searchInput")
+        .addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                searchVersion();
+            }
+        });
+});
