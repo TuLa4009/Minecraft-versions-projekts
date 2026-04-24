@@ -246,7 +246,7 @@ function checkTime(i) {
 
 /// home button
 function mainPage() {
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
 }
 
 //test button
@@ -257,7 +257,7 @@ function testPage() {
 //game button
 
 function spelePage() {
-  window.location.href = "../game/index.html";
+  window.location.href = "game/index.html";
 }
 
 
