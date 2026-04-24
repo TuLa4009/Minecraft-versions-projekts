@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft versions</title>
+    <link rel="stylesheet" href="index.css">
+    <link href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" 
+          rel="stylesheet" />
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="startTime()">
+    <img class="gif" src="./img/cipa.gif" />
+    <div class ="box_pamats"> 
+    <div class ="box_pamats_prop">
+        <div class="head_rinda">
+        <img class="logotips" src="../img/cherry_logo.png">
+        <button class="test_poga" onclick="testPage()">Test</button>
+        <button class="spele_poga" onclick="spelePage()">Game</button>
+        </div>
+        <div class ="box1_prop">
+        <div class="part_top">
+            <div class ="text_box">
+            <h1 data-i18n="intro.greeting"></h1>
+            <hr class="hr1">
+            <p class="text_main" data-i18n="intro.text"></p>
+        
+            </div>
+
+            <div class="fast_open"> 
+                <a href="./versions/v1_21.html" class="fast_open_box">
+                    <h3 class="fast_open_box_tekst">1.21</h3>
+                    <img src="./img/1.21.png" alt="img_versija">
+                </a>
+                
+            
+                
+                <a href="./versions/v1_20.html" class="fast_open_box">
+                    <h3 class="fast_open_box_tekst">1.20</h3>
+                    <img src="./img/1.20.png" alt="img_versija">
+                </a>
+                
+
+                
+                <a href="./versions/v1_19.html" class="fast_open_box">
+                    <h3 class="fast_open_box_tekst">1.19</h3>
+                    <img src="./img/1.19.png" alt="img_versija">
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div class="part_bot">
+            <div class="right_side_box clicked">
+                <div class="right_side_main">
+                    <div class="right_side_main_text">
+                        <h2 class="version_apraksts"></h2>
+                        <hr class="hr3">
+                        <p class="text_version_aprakts"></p>
+                    </div>
+                    <div class="right_side_img_box"><img class="right_side_img" src="https://img.icons8.com/ios/50/FFFFFF/sad.png" alt="sad"/></div>
+                </div>
+            </div>
+
+
+
+            <div class="lef_side_box">
+                <h2 class="left_side_box_tekst" data-i18n="intro.versijas"></h2>
+                <hr class="hr2">
+                <div class="left_side_list_box">
+                    <div class="left_side_list">
+                        <button class="left_side_item" data-versija="v1_0" data-i18n="v1_0.title"></button>
+                        <button class="left_side_item" data-versija="v1_2" data-i18n="v1_2.title"></button>
+                        <button class="left_side_item" data-versija="v1_3" data-i18n="v1_3.title"></button>
+                        <button class="left_side_item" data-versija="v1_4" data-i18n="v1_4.title"></button>
+                        <button class="left_side_item" data-versija="v1_5" data-i18n="v1_5.title"></button>
+                        <button class="left_side_item" data-versija="v1_6" data-i18n="v1_6.title"></button>
+                        <button class="left_side_item" data-versija="v1_7" data-i18n="v1_7.title"></button>
+                        <button class="left_side_item" data-versija="v1_8" data-i18n="v1_8.title"></button>
+                        <button class="left_side_item" data-versija="v1_9" data-i18n="v1_9.title"></button>
+                        <button class="left_side_item" data-versija="v1_10" data-i18n="v1_10.title"></button>
+                        <button class="left_side_item" data-versija="v1_11" data-i18n="v1_11.title"></button>
+                        <button class="left_side_item" data-versija="v1_12" data-i18n="v1_12.title"></button>
+                        <button class="left_side_item" data-versija="v1_13" data-i18n="v1_13.title"></button>
+                        <button class="left_side_item" data-versija="v1_14" data-i18n="v1_14.title"></button>
+                        <button class="left_side_item" data-versija="v1_15" data-i18n="v1_15.title"></button>
+                        <button class="left_side_item" data-versija="v1_16" data-i18n="v1_16.title"></button>
+                        <button class="left_side_item" data-versija="v1_17" data-i18n="v1_17.title"></button>
+                        <button class="left_side_item" data-versija="v1_18" data-i18n="v1_18.title"></button>
+                        <button class="left_side_item" data-versija="v1_19" data-i18n="v1_19.title"></button>
+                        <button class="left_side_item" data-versija="v1_20" data-i18n="v1_20.title"></button>
+                        <button class="left_side_item" data-versija="v1_21" data-i18n="v1_21.title"></button>
+                    </div>
+                    <div class="scroll">
+                        <div class="scroll_ind"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="linija">
+        <div class="topchik">
+            <button class="home_poga" onclick="mainPage()"><i class="bi bi-house"></i></button>
+            <div class="laiks"></div>
+            <div class="valodas">
+                <input class="search" type="text" id="searchInput" placeholder="Ivadit versiju (1.0)">
+
+                <button class="lang lv" onclick="setLanguage('lv')">LV</button>
+                <button class="lang en" onclick="setLanguage('en')">EN</button>
+                <button class="lang ru" onclick="setLanguage('ru')">RU</button>
+            </div>
+        </div>
+    </div>
+
+
+<div class="linija_bot">
+        <div class="topchik">
+            <div class="logo"><img src="./img/min_logo.png"></div>
+            <div class="valodas">
+            <a href="https://www.instagram.com/" class="link"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" class="link"><i class="fa fa-facebook-f"></i></a>
+            <a href="https://www.inbox.lv/" class="link"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+</div>
+
+
+    <script src="index.js"></script>
+    <script src="translation.js"></script>
+</body>
+</html>
